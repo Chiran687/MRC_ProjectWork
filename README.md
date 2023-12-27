@@ -24,14 +24,19 @@ docker-compose.yml: Docker Compose configuration file to set up a MySQL containe
 <h3>Usage</h3>
 1. Clone the repository:
     https://github.com/Chiran687/MRC_ProjectWork.git
+    
 2. Navigate to the project directory:
    cd PHP_CRUD
-3. Run docker-compose file:
+   
+4. Run docker-compose file:
    docker-compose up -d
-4. Enable PDO extension in php.ini
-5. Run PHP local server:
+   
+6. Enable PDO extension in php.ini
+7. 
+8. Run PHP local server:
    php -S 127.0.0.1:8000
-6. Access the application in your browser:
+   
+10. Access the application in your browser:
    http://localhost:8080
 
    
@@ -68,4 +73,4 @@ MySQLi: Tightly coupled with MySQL-specific features.
 PDO: Simplifies code by providing a unified API for different databases.
 MySQLi: Requires more code for certain operations and lacks consistency in some aspects.
 
-Choose PDO or MySQLi based on your project requirements and preferences. PDO is often favored for its flexibility and support for multiple databases.
+<h3>Choose PDO or MySQLi based on your project requirements and preferences. PDO is often favored for its flexibility and support for multiple databases.</h3>
