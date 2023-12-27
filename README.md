@@ -28,15 +28,15 @@ docker-compose.yml: Docker Compose configuration file to set up a MySQL containe
 2. Navigate to the project directory:
    cd PHP_CRUD
    
-4. Run docker-compose file:
+3. Run docker-compose file:
    docker-compose up -d
    
-6. Enable PDO extension in php.ini
-7. 
-8. Run PHP local server:
+4. Enable PDO extension in php.ini
+   
+5. Run PHP local server:
    php -S 127.0.0.1:8000
    
-10. Access the application in your browser:
+6. Access the application in your browser:
    http://localhost:8080
 
    
