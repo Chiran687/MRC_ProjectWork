@@ -2,7 +2,7 @@
 
 This repository demonstrates a simple PHP CRUD (Create, Read, Update, Delete) application using Docker Compose to set up a MySQL container. The application utilizes PDO (PHP Data Objects) for database operations.
 
-Files:
+<h3>Files:</h3>
 
 config.php: Configuration file containing database connection details.
 
@@ -18,10 +18,10 @@ read.php: Read operation - Fetch and display records from the database.
 
 update.php: Update operation - Modify existing records in the database.
 
-Docker Configuration
+<h3>Docker Configuration</h3>
 docker-compose.yml: Docker Compose configuration file to set up a MySQL container.
 
-Usage
+<h3>Usage</h3>
 1. Clone the repository:
     https://github.com/Chiran687/MRC_ProjectWork.git
 2. Navigate to the project directory:
@@ -37,7 +37,7 @@ Usage
    
 Even though the curriulum of BICTE third semester used Mysqli, I am using PDO because of many advandatges of PDO over MySQLi.
 
-Advantages of PDO over MySQLi
+<h2>Advantages of PDO over MySQLi</h2>
 
 1. Database Support:
 PDO: Supports multiple databases, including MySQL, PostgreSQL, SQLite, and others. Allows easier database migration.
