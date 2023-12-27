@@ -26,9 +26,12 @@ Usage
     https://github.com/Chiran687/MRC_ProjectWork.git
 2. Navigate to the project directory:
    cd PHP_CRUD
-3. Run PHP local server:
+3. Run docke-compose file:
+   docker-compose up -d
+4. Enable PDO extension in php.ini
+5. Run PHP local server:
    php -S 127.0.0.1:8000
-4. Access the application in your browser:
+6. Access the application in your browser:
    http://localhost:8080
 
    
